@@ -1,10 +1,16 @@
 //person.cpp
+//Matthew Garcia
+//Section 2
 
 #include "person.h"
 
-Person:: Person(){
-
+Person::Person(string fName, string lName, float rate, float hours){
+  firstName="";
+  lastName="";
+  payRate=0.0;
+  hoursWorked=0.0;
 }
+
 
 string Person::getFirstName() {
     return firstName;
